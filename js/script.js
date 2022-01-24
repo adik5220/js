@@ -16,9 +16,9 @@ let personalMovieDB = {
 
 if (personalMovieDB.count < 10) {
     alert('Посмотрено довольно мало фильмов');
-} else if (personalMovieDB.count > 10 && personalMovieDB.count < 30) {
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
     alert('Вы классный зритель!');
-} else if (personalMovieDB.count >30) {
+} else if (personalMovieDB.count >= 30) {
     alert('Вы киноман');
 } else {
     alert('Произошла ошибка');
